@@ -34,6 +34,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6WebApp", "sandbox\Net6W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6Console", "sandbox\Net6Console\Net6Console.csproj", "{19E33348-979A-4283-A74D-0844CC384A88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppFramework.Test.TrimmedAssembly", "tests\ConsoleAppFramework.Test.TrimmedAssembly\ConsoleAppFramework.Test.TrimmedAssembly.csproj", "{910DCA92-EB43-45BD-8854-76266B058F6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{19E33348-979A-4283-A74D-0844CC384A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19E33348-979A-4283-A74D-0844CC384A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E33348-979A-4283-A74D-0844CC384A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910DCA92-EB43-45BD-8854-76266B058F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910DCA92-EB43-45BD-8854-76266B058F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910DCA92-EB43-45BD-8854-76266B058F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910DCA92-EB43-45BD-8854-76266B058F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{E065696C-9DF6-4E68-933B-BFA0165781DD} = {A2CF2984-E8E2-48FC-B5A1-58D74A2467E6}
 		{48781D9F-D3E0-4A72-ADD1-A47ECDC23F0A} = {A2CF2984-E8E2-48FC-B5A1-58D74A2467E6}
 		{19E33348-979A-4283-A74D-0844CC384A88} = {A2CF2984-E8E2-48FC-B5A1-58D74A2467E6}
+		{910DCA92-EB43-45BD-8854-76266B058F6C} = {AAD2D900-C305-4449-A9FC-6C7696FFEDFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F3E353A-C125-4020-8481-11DC6496358C}
